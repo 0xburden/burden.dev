@@ -1,0 +1,16 @@
+{
+  "name": "burden.dev",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "astro dev",
+    "build": "astro build"
+  },
+  "devDependencies": {
+    "@astrojs/renderer-preact": "^0.2.1",
+    "astro": "^0.18.13"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}
