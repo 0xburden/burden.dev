@@ -4,7 +4,7 @@ import type { Metadata } from 'next'
 import { Inconsolata } from 'next/font/google'
 import { Box } from '@chakra-ui/react'
 import { Providers } from './providers'
-import Header from '@/modules/layout/components/Header'
+import { Header, Footer } from '@/modules/layout/components'
 
 const globalFont = Inconsolata({
   subsets: ['latin'],
@@ -33,6 +33,7 @@ export default function RootLayout({
             <Box w="100%" m="auto" maxW="72rem" p={4}>
               {children}
             </Box>
+            <Footer />
           </Box>
         </Providers>
       </body>

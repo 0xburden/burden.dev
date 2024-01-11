@@ -86,6 +86,33 @@ export default function Home() {
             </Flex>
           </Box>
         </Flex>
+
+        <Flex
+          mt={8}
+          direction="column"
+          borderRadius="xl"
+          border="1px"
+          borderColor="whiteAlpha.300"
+          px={6}
+          py={4}
+          w="100%"
+          gap={8}
+        >
+          <Box flex={1}>
+            <Heading>What are they looking for?</Heading>
+
+            <Flex direction="column" gap={4} mt={4}>
+              <Text>Peace and quiet, mostly.</Text>
+
+              <Text>
+                Currently open to gigs/contract work or the right full time
+                opportunity as a Frontend Engineer. Capable of fullstack
+                contract and gig work though, all you have to do is reach out to
+                find out more about my experience.
+              </Text>
+            </Flex>
+          </Box>
+        </Flex>
       </Box>
     </main>
   )
