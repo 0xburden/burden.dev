@@ -28,7 +28,7 @@ export default function RootLayout({
         style={{ backgroundColor: 'rgb(0 0 0 / 0)' }}
       >
         <Providers>
-          <Box bg="blackAlpha.600" color="gray.50" h="100vh">
+          <Box bg="blackAlpha.600" color="gray.50" h="100%" minH="100vh">
             <Header />
             <Box w="100%" m="auto" maxW="72rem" p={4}>
               {children}
